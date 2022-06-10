@@ -3,7 +3,7 @@
 		
 		<div class="row justify-content-center">
 			<div class="col-md-1" v-if="isLoading">
-				<img src="http://lanwildsouza.tk/quizzy/img/spinner.gif" height="140px" width="140px">
+				<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 			</div>
 		    <div class="col-md-10" v-else>
 		        <div class="card card-default">

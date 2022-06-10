@@ -2,7 +2,7 @@
 	<div class="result">
 		<div class="col-md-12 mb-3">
 			<div style="text-align:center;" v-if="isLoading">
-				<img src="http://lanwildsouza.tk/quizzy/img/spinner.gif" height="140px" width="140px">
+				<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 			</div>
 			<div class="card card-default" v-else>
 				<div class="card-header bg-primary text-white"><strong>Your Result</strong></div>

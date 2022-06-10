@@ -12,7 +12,7 @@
 		<div v-if="isLoading">
 			<div class="row justify-content-center">
 				<div class="col-md-1" v-if="isLoading">
-					<img src="http://localhost:8000/img/giphy.gif" height="140px" width="140px">
+					<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 				</div>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <template>
 	<div class="home">
 		<div v-if="isLoading" style="text-align:center;">
-			<img src="http://localhost:8000/img/giphy.giff" height="140px" width="140px">
+			<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 		</div>
 		<div v-else>
 			<Timer v-if="timePeriod > 0" :time-period="timePeriod"/>

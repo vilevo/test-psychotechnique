@@ -56300,7 +56300,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("img", {
           staticStyle: { "max-width": "100%", height: "230px" },
-          attrs: { src: "http://localhost:8000/img/mars.png" }
+          attrs: { src: "https://tech.hilexpertiz.com/img/giphy.gif" }
         }),
         _vm._v(" "),
         _c("h3", [_vm._v("Developed by Id2Real @Id2Real")]),
@@ -56308,9 +56308,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "lead" }, [
           _c("i", { staticClass: "fa fa-github" }),
           _vm._v(" "),
-          _c("a", { attrs: { href: "https://www.github.com/lanwilds" } }, [
-            _vm._v("contact@id2real.com")
-          ]),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("contact@id2real.com")]),
           _vm._v("  Pour plus d'infos.\n\t\t\tSi vous rencontrez un problem "),
           _c("br"),
           _vm._v(" en utilisant cette platforme, faites - nous le savoir.  "),
@@ -56555,7 +56553,7 @@ var render = function() {
               ? _c("div", { staticClass: "col-md-1" }, [
                   _c("img", {
                     attrs: {
-                      src: "http://localhost:8000/img/giphy.gif",
+                      src: "https://tech.hilexpertiz.com/img/giphy.gif",
                       height: "140px",
                       width: "140px"
                     }
@@ -58039,7 +58037,7 @@ var render = function() {
       ? _c("div", { staticStyle: { "text-align": "center" } }, [
           _c("img", {
             attrs: {
-              src: "http://localhost:8000/img/giphy.giff",
+              src: "https://tech.hilexpertiz.com/img/giphy.gif",
               height: "140px",
               width: "140px"
             }
@@ -59126,7 +59124,7 @@ var render = function() {
         ? _c("div", { staticStyle: { "text-align": "center" } }, [
             _c("img", {
               attrs: {
-                src: "http://lanwildsouza.tk/quizzy/img/spinner.gif",
+                src: "https://tech.hilexpertiz.com/img/giphy.gif",
                 height: "140px",
                 width: "140px"
               }
@@ -59409,7 +59407,7 @@ var render = function() {
       ? _c("div", { staticStyle: { "text-align": "center" } }, [
           _c("img", {
             attrs: {
-              src: "http://lanwildsouza.tk/quizzy/img/spinner.gif",
+              src: "https://tech.hilexpertiz.com/img/giphy.gif",
               height: "140px",
               width: "140px"
             }
@@ -59769,7 +59767,7 @@ var render = function() {
         ? _c("div", { staticClass: "col-md-1" }, [
             _c("img", {
               attrs: {
-                src: "http://lanwildsouza.tk/quizzy/img/spinner.gif",
+                src: "https://tech.hilexpertiz.com/img/giphy.gif",
                 height: "140px",
                 width: "140px"
               }
