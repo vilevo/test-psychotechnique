@@ -56300,7 +56300,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("img", {
           staticStyle: { "max-width": "100%", height: "230px" },
-          attrs: { src: "https://tech.hilexpertiz.com/img/giphy.gif" }
+          attrs: { src: "https://tech.hilexpertiz.com/img/mars.png" }
         }),
         _vm._v(" "),
         _c("h3", [_vm._v("Developed by Id2Real @Id2Real")]),
