@@ -1,7 +1,7 @@
 <template>
 	<footer class="footer mt-5 p-3">
 		<div class="container">
-			<img src="https://tech.hilexpertiz.com/img/giphy.gif" style="max-width:100%; height:230px;">
+			<img src="https://tech.hilexpertiz.com/img/mars.png" style="max-width:100%; height:230px;">
 
 			<h3>Developed by Id2Real @Id2Real</h3>
 			<p class="lead">
