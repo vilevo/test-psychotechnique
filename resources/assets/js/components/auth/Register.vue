@@ -2,11 +2,11 @@
 	<div class="login">
 		<div class="row justify-content-center">
 				<div class="col-md-1" v-if="isLoading">
-					<img src="http://lanwildsouza.tk/quizzy/spinner.gif" height="140px" width="140px">
+					<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 				</div>
 			   <div class="col-md-8" v-else>
 		        <div class="card card-default">
-		            <div class="card-header bg-info text-white">Register to Quizzy</div>
+		            <div class="card-header bg-info text-white">S'inscrire au test psychotechnique</div>
 		            <form @submit.prevent="register">
 		            	<div class="card-body">
 		            		<div class="alert alert-warning alert-dismissible fade show" role="alert" v-if="errors">
@@ -21,19 +21,19 @@
 		            			</button>
 		            		</div>
 		            		<div class="form-group">
-		            				<label for="email">Name</label>
-		            				<input type="text" name="name" class="form-control" v-model="form.name" placeholder="Enter Name">
+		            				<label for="email">Nom</label>
+		            				<input type="text" name="name" class="form-control" v-model="form.name" placeholder="Ecrivez votre Nom">
 		            		</div>
 		            	   <div class="form-group">
 		            	   		<label for="email">Email</label>
-		            	   		<input type="text" name="email" class="form-control" v-model="form.email" placeholder="Enter Email">
+		            	   		<input type="text" name="email" class="form-control" v-model="form.email" placeholder="Ecrivez votre Email">
 		            	   </div>
 		            	   <div class="form-group">
-		            	   		<label for="password">Password</label>
-		            	   		<input type="password" name="password" class="form-control" v-model="form.password" placeholder="Enter Password">
+		            	   		<label for="password">Mot de passe</label>
+		            	   		<input type="password" name="password" class="form-control" v-model="form.password" placeholder="Ecrivez votre Mot de Passe">
 		            	   </div>
 		            	   <div class="form-group">
-		            	   		<label for="repassword">RePassword</label>
+		            	   		<label for="repassword">Confirmer Mot le de Passe</label>
 		            	   		<input type="password" name="repassword" class="form-control" v-model="form.repassword" placeholder="Re-enter Password">
 		            	   </div>
 		            	   <button class="btn btn-info btn-block" type="submit">Register</button>

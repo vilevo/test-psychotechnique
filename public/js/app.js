@@ -56979,7 +56979,7 @@ var render = function() {
         ? _c("div", { staticClass: "col-md-1" }, [
             _c("img", {
               attrs: {
-                src: "http://lanwildsouza.tk/quizzy/img/spinner.gif",
+                src: "https://tech.hilexpertiz.com/img/giphy.gif",
                 height: "140px",
                 width: "140px"
               }
@@ -56988,7 +56988,7 @@ var render = function() {
         : _c("div", { staticClass: "col-md-8" }, [
             _c("div", { staticClass: "card card-default" }, [
               _c("div", { staticClass: "card-header bg-primary text-white" }, [
-                _vm._v("Login to Quizzy")
+                _vm._v("Se connecter")
               ]),
               _vm._v(" "),
               _c(
@@ -57040,7 +57040,7 @@ var render = function() {
                         attrs: {
                           type: "text",
                           name: "email",
-                          placeholder: "Enter Email"
+                          placeholder: "Ecrivez votre Email"
                         },
                         domProps: { value: _vm.form.email },
                         on: {
@@ -57056,7 +57056,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { staticClass: "form-group" }, [
                       _c("label", { attrs: { for: "email" } }, [
-                        _vm._v("Password")
+                        _vm._v("Mot de passe")
                       ]),
                       _vm._v(" "),
                       _c("input", {
@@ -57072,7 +57072,7 @@ var render = function() {
                         attrs: {
                           type: "password",
                           name: "password",
-                          placeholder: "Enter Password"
+                          placeholder: "Ecrivez votre Mot de Passe"
                         },
                         domProps: { value: _vm.form.password },
                         on: {
@@ -57099,9 +57099,7 @@ var render = function() {
               ),
               _vm._v(" "),
               _c("div", { staticClass: "card-footer" }, [
-                _vm._v(
-                  "\n\t            \tLogin and Start Quizzy\n\t            "
-                )
+                _vm._v("\n\t            \tConnexion\n\t            ")
               ])
             ])
           ])
@@ -57383,7 +57381,7 @@ var render = function() {
         ? _c("div", { staticClass: "col-md-1" }, [
             _c("img", {
               attrs: {
-                src: "http://lanwildsouza.tk/quizzy/spinner.gif",
+                src: "https://tech.hilexpertiz.com/img/giphy.gif",
                 height: "140px",
                 width: "140px"
               }
@@ -57392,7 +57390,7 @@ var render = function() {
         : _c("div", { staticClass: "col-md-8" }, [
             _c("div", { staticClass: "card card-default" }, [
               _c("div", { staticClass: "card-header bg-info text-white" }, [
-                _vm._v("Register to Quizzy")
+                _vm._v("S'inscrire au test psychotechnique")
               ]),
               _vm._v(" "),
               _c(
@@ -57440,9 +57438,7 @@ var render = function() {
                       : _vm._e(),
                     _vm._v(" "),
                     _c("div", { staticClass: "form-group" }, [
-                      _c("label", { attrs: { for: "email" } }, [
-                        _vm._v("Name")
-                      ]),
+                      _c("label", { attrs: { for: "email" } }, [_vm._v("Nom")]),
                       _vm._v(" "),
                       _c("input", {
                         directives: [
@@ -57457,7 +57453,7 @@ var render = function() {
                         attrs: {
                           type: "text",
                           name: "name",
-                          placeholder: "Enter Name"
+                          placeholder: "Ecrivez votre Nom"
                         },
                         domProps: { value: _vm.form.name },
                         on: {
@@ -57489,7 +57485,7 @@ var render = function() {
                         attrs: {
                           type: "text",
                           name: "email",
-                          placeholder: "Enter Email"
+                          placeholder: "Ecrivez votre Email"
                         },
                         domProps: { value: _vm.form.email },
                         on: {
@@ -57505,7 +57501,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { staticClass: "form-group" }, [
                       _c("label", { attrs: { for: "password" } }, [
-                        _vm._v("Password")
+                        _vm._v("Mot de passe")
                       ]),
                       _vm._v(" "),
                       _c("input", {
@@ -57521,7 +57517,7 @@ var render = function() {
                         attrs: {
                           type: "password",
                           name: "password",
-                          placeholder: "Enter Password"
+                          placeholder: "Ecrivez votre Mot de Passe"
                         },
                         domProps: { value: _vm.form.password },
                         on: {
@@ -57537,7 +57533,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { staticClass: "form-group" }, [
                       _c("label", { attrs: { for: "repassword" } }, [
-                        _vm._v("RePassword")
+                        _vm._v("Confirmer Mot le de Passe")
                       ]),
                       _vm._v(" "),
                       _c("input", {
@@ -59425,7 +59421,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
                 _c("div", { staticClass: "form-group " }, [
-                  _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
+                  _c("label", { attrs: { for: "name" } }, [_vm._v("Nom")]),
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control",
@@ -60319,7 +60315,7 @@ function initialize(store, router) {
 		var currentUser = store.state.currentUser;
 
 		if (requiresAuth && !currentUser) {
-			store.commit("showAlert", "You need to login for accessing this content. new user ? register now");
+			store.commit("showAlert", "Veuillez vous connecter. vous n'avez pas de compte ? inscrivez-vous");
 			next('/login');
 		} else if (to.path == '/login' && currentUser) {
 			next('/');

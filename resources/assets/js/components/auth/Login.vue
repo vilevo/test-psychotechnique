@@ -2,11 +2,11 @@
 	<div class="login">
 		<div class="row justify-content-center">
 			<div class="col-md-1" v-if="isLoading">
-				<img src="http://lanwildsouza.tk/quizzy/img/spinner.gif" height="140px" width="140px">
+				<img src="https://tech.hilexpertiz.com/img/giphy.gif" height="140px" width="140px">
 			</div>
 		    <div class="col-md-8" v-else>
 		        <div class="card card-default">
-		            <div class="card-header bg-primary text-white">Login to Quizzy</div>
+		            <div class="card-header bg-primary text-white">Se connecter</div>
 		            <form @submit.prevent="authenticate">
 		            	<div class="card-body">
 		            		<div class="alert alert-warning alert-dismissible fade show" role="alert" v-if="authError">
@@ -19,17 +19,17 @@
 		            		</div>
 		            	   <div class="form-group">
 		            	   		<label for="email">Email</label>
-		            	   		<input type="text" name="email" class="form-control" v-model="form.email" placeholder="Enter Email">
+		            	   		<input type="text" name="email" class="form-control" v-model="form.email" placeholder="Ecrivez votre Email">
 		            	   </div>
 		            	   <div class="form-group">
-		            	   		<label for="email">Password</label>
-		            	   		<input type="password" name="password" class="form-control" v-model="form.password" placeholder="Enter Password">
+		            	   		<label for="email">Mot de passe</label>
+		            	   		<input type="password" name="password" class="form-control" v-model="form.password" placeholder="Ecrivez votre Mot de Passe">
 		            	   </div>
 		            	   <button class="btn btn-outline-primary btn-block" type="submit">Login</button>
 		            	</div>
 		            </form>
 		            <div class="card-footer">
-		            	Login and Start Quizzy
+		            	Connexion
 		            </div>
 		        </div>
 		    </div>

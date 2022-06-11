@@ -4,7 +4,7 @@ export function initialize(store,router){
 		const currentUser = store.state.currentUser;
 
 		if(requiresAuth && !currentUser){
-			store.commit("showAlert","You need to login for accessing this content. new user ? register now")
+			store.commit("showAlert","Veuillez vous connecter. vous n'avez pas de compte ? inscrivez-vous")
 			next('/login');
 		} else if(to.path == '/login' && currentUser){
 			next('/');

@@ -9,7 +9,7 @@
 		        	<div class="card-header bg-success text-white">Profile</div>
 		        	<div class="card-body">
 		        		<div class="form-group ">
-		        			<label for="name">Name</label>
+		        			<label for="name">Nom</label>
 		        			<input class="form-control" type="text" readonly :value="getProfile.user.name">
 		        		</div>
 		        		<div class="form-group">
